@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(172, 177, 182);
+    font-family: 'Open Sans', sans-serif;
+}
+.registeration{
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:  rgb(250, 250, 250);
+    border-right: 4px solid  grey;
+    border-bottom: 3px solid grey;
+    box-shadow: 3px 5px 5px grey;
+    width: 500px;
+    height: 500px;
+}
+
+.registeration p{
+    color:rgb(59, 96, 128) ;
+    margin: 0;
+    padding-bottom: 40px;
+    font-size:2.5vw;
+    font-weight: bolder;
+    text-transform:uppercase;
+    text-align: center;
+}
+
+#fname{
+    height: 20px;
+}
+
+#lname{
+    height: 20px;
+}
+
+#pn{
+    height: 20px;
+}
+
+#gender{
+    height: 30px;
+}
+
+#submit{
+    border: none;
+    color: white;
+    height: 50px;
+    background-color: rgb(59, 96, 128);
+    text-transform:uppercase;
+    font-weight:lighter;
+    font-size: 17.5px;
+}
